@@ -9,11 +9,11 @@ import { ProductModule } from './product/product.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5432,
-      username: 'postgres',
-      password: '123456',
-      database: 'postgres',
+      host: 'database-do-user-7928328-0.b.db.ondigitalocean.com',
+      port: 25060,
+      username: 'doadmin',
+      password: 'AVNS_WcNS7Uvvr5vZj10zv_4',
+      database: 'defaultdb',
       entities: [ProductEntity],
       synchronize: true,
       logging: true,

@@ -17,6 +17,9 @@ import { ProductModule } from './product/product.module';
       entities: [ProductEntity],
       synchronize: true,
       logging: true,
+      ssl: {
+        rejectUnauthorized: false,
+      },
     }),
     ProductModule,
   ],
